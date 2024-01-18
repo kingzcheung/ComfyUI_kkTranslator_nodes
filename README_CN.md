@@ -1,9 +1,10 @@
 # ComfyUI_kkTranslator_nodes
 
-这些 nodes 主要用于把提示词从其他语言翻译成英文.
+这些 `nodes` 主要用于把提示词从其他语言翻译成英文.
+`PromptTranslateToText` 基于 `Helsinki-NLP` 的翻译模型实现的提示词翻译，不需要连网翻译
 
 ## 安装
-1. 克隆这个仓库到 ComfyUI 的 custom_nodes 文件夹中。
+1. 克隆这个仓库到` ComfyUI` 的 `custom_nodes` 文件夹中。
 ```
 cd custom_nodes
 git clone https://github.com/chaojie/ComfyUI-DragNUWA

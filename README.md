@@ -3,7 +3,7 @@
 [简体中文](./README_CN.md)| English
 
 These nodes are mainly used to translate prompt words from other languages into English.
-
+`PromptTranslateToText` implements prompt word translation based on Helsinki NLP translation model.It doesn't require internet connection。
 ## Install
 1. Clone this repository to the custom of ComfyUI In the nodes folder。
 ```
