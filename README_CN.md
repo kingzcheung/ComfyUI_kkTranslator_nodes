@@ -18,3 +18,15 @@ python -m pip install -r requirements.txt
 下载这个工作流查看演示: [marian_mt_workflow](./marian_mt_workflow.json)
 
 ![Alt text](image.png)
+
+## 重要!!
+
+国内无法由于存在 huggingface 的服务器问题,麻烦请参考: https://hf-mirror.com/ 启动 comfyui
+
+```
+export HF_ENDPOINT=https://hf-mirror.com
+python main.py
+
+# or 
+ HF_ENDPOINT=https://hf-mirror.com python main.py
+```
