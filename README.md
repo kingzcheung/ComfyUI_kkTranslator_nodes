@@ -1,9 +1,11 @@
 # ComfyUI_kkTranslator_nodes
 
+[简体中文](./README_CN.md)| English
+
 These nodes are mainly used to translate prompt words from other languages into English.
 
 ## Install
-1. Clone this repository to the custom of ComfyUI_ In the nodes folder。
+1. Clone this repository to the custom of ComfyUI In the nodes folder。
 ```
 cd custom_nodes
 git clone https://github.com/chaojie/ComfyUI-DragNUWA
