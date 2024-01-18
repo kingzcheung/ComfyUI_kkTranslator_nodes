@@ -1,5 +1,4 @@
 from transformers import MarianMTModel, MarianTokenizer
-import folder_paths
 from pathlib import Path
 
 marian_list = [
@@ -8,7 +7,6 @@ marian_list = [
     "opus-mt-taw-en",
     "opus-mt-az-en",
     "opus-mt-ru-en",
-
 ]
 
 class LoadMarianMTCheckPoint:
