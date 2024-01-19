@@ -1,2 +1,6 @@
 torch
 transformers
+requests
+hashlib
+random
+json

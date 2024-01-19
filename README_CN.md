@@ -20,6 +20,11 @@ python -m pip install -r requirements.txt
 
 ![Alt text](image.png)
 
+### 百度翻译插件
+如果你有测试了百度翻译开发者账户，可以使用百度翻译插件 `PromptBaiduFanyiToText`。
+
+![promptbaidu](image-1.png)
+
 ## 重要!!
 
 国内无法由于存在 huggingface 的服务器问题,麻烦请参考: https://hf-mirror.com/ 启动 comfyui
