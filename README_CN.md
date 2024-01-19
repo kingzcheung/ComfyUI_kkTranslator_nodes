@@ -21,7 +21,7 @@ python -m pip install -r requirements.txt
 ![Alt text](image.png)
 
 ### 百度翻译插件
-如果你有测试了百度翻译开发者账户，可以使用百度翻译插件 `PromptBaiduFanyiToText`。
+如果你有注册百度翻译开发者账户，可以使用百度翻译插件 `PromptBaiduFanyiToText`。百度翻译支持的翻译内容比本地模型更好，也更快，但是需要在 `PromptBaiduFanyiToText` 中配置你的百度翻译账户信息。注册方法: [https://fanyi-api.baidu.com/doc/12](https://fanyi-api.baidu.com/doc/12)
 
 ![promptbaidu](image-1.png)
 
