@@ -7,7 +7,7 @@
 1. 克隆这个仓库到` ComfyUI` 的 `custom_nodes` 文件夹中。
 ```
 cd custom_nodes
-git clone https://github.com/chaojie/ComfyUI-DragNUWA
+git clone https://github.com/kingzcheung/ComfyUI_kkTranslator_nodes
 ```
 2. 运行以下命令安装依赖
 ```

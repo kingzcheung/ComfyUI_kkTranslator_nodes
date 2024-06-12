@@ -10,11 +10,12 @@ marian_list = [
     "opus-mt-taw-en",
     "opus-mt-az-en",
     "opus-mt-ru-en",
+    "opus-mt-ja-en"
 ]
 
 lang_list = [
     'auto','zh', 'yue', 'kor', 'th', 'pt','el','bul','fin','slo','cht','wyw'
-,'fra','ara','de','nl','est','cs','swe','jp','spa','ru','it','pl']
+,'fra','ara','de','nl','est','cs','swe','jp','spa','ru','it','pl','ja']
 
 def make_md5(s, encoding='utf-8'):
     return md5(s.encode(encoding)).hexdigest()

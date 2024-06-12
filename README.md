@@ -8,7 +8,7 @@ These nodes are mainly used to translate prompt words from other languages into 
 1. Clone this repository to the custom of ComfyUI In the nodes folder。
 ```
 cd custom_nodes
-git clone https://github.com/chaojie/ComfyUI-DragNUWA
+git clone https://github.com/kingzcheung/ComfyUI_kkTranslator_nodes
 ```
 2. Run the following command to install dependencies
 ```
