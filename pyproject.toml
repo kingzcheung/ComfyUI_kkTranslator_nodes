@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_kktranslator_nodes"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "transformers", "requests", "hashlib", "random", "json"]
+
+[project.urls]
+Repository = "https://github.com/kingzcheung/ComfyUI_kkTranslator_nodes"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "kingzcheung"
+DisplayName = "ComfyUI_kkTranslator_nodes"
+Icon = ""
