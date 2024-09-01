@@ -10,7 +10,11 @@ marian_list = [
     "opus-mt-taw-en",
     "opus-mt-az-en",
     "opus-mt-ru-en",
-    "opus-mt-ja-en"
+    "opus-mt-ja-en",
+    "opus-mt-en-zh",
+    "opus-mt-en-ru",
+    "opus-mt-en-jap",
+    "opus-mt-en-rn",
 ]
 
 lang_list = [
