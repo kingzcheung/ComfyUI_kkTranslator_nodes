@@ -27,7 +27,7 @@ python -m pip install -r requirements.txt
 
 ## 重要!!
 
-国内无法由于存在 huggingface 的服务器问题,麻烦请参考: https://hf-mirror.com/ 启动 comfyui
+国内由于无法访问 huggingface 的服务器问题,麻烦请参考: https://hf-mirror.com/ 启动 comfyui
 
 ```
 export HF_ENDPOINT=https://hf-mirror.com
