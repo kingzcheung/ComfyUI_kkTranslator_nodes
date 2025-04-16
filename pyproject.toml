@@ -1,9 +1,9 @@
 [project]
 name = "comfyui_kktranslator_nodes"
 description = ""
-version = "1.0.0"
-license = {file = "LICENSE"}
-dependencies = ["torch", "transformers", "requests", "hashlib", "random", "json"]
+version = "2.0.0"
+license = { file = "LICENSE" }
+dependencies = ["torch", "transformers", "requests", "json"]
 
 [project.urls]
 Repository = "https://github.com/kingzcheung/ComfyUI_kkTranslator_nodes"

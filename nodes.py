@@ -3,6 +3,8 @@ import requests
 import random
 import json
 from hashlib import md5
+import folder_paths
+from pathlib import Path
 
 marian_list = [
     "opus-mt-zh-en",
@@ -43,9 +45,15 @@ class LoadMarianMTCheckPoint:
 
     def load_marian_mt(self, checkpoint):
         # default_model_path = Path(folder_paths.models_dir) / "marian_models"
-        model_name = 'Helsinki-NLP/' + checkpoint
-        tokenizer = MarianTokenizer.from_pretrained(model_name)
-        model = MarianMTModel.from_pretrained(model_name)
+        
+        base_path = Path(folder_paths.models_dir) / "kkTranslator"
+        base_path.mkdir(parents=True, exist_ok=True)
+        translate_path = base_path / checkpoint
+        if not translate_path.exists():
+            raise ValueError(f"{base_path} not exists,please download Helsinki-NLP/{checkpoint} in huggingface")
+        
+        tokenizer = MarianTokenizer.from_pretrained(translate_path)
+        model = MarianMTModel.from_pretrained(translate_path)
 
         return (model,tokenizer)
 

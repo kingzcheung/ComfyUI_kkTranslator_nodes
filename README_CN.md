@@ -13,7 +13,26 @@ git clone https://github.com/kingzcheung/ComfyUI_kkTranslator_nodes
 ```
 python -m pip install -r requirements.txt
 ```
-3. 重启你的 ComfyUI
+3. 到 `models` 创建目录 `kkTranslator`:
+```bash
+cd models
+mkdir kkTranslator
+cd kkTranslator
+huggingface-cli download --resume-download Helsinki-NLP/opus-mt-zh-en --local-dir opus-mt-zh-en  --local-dir-use-symlinks False
+```
+你也可以从这里下载模型：
+
+- [Helsinki-NLP/opus-mt-zh-en](https://hf-mirror.com/Helsinki-NLP/opus-mt-zh-en)
+- [Helsinki-NLP/opus-mt-rn-en](https://hf-mirror.com/Helsinki-NLP/opus-mt-rn-en)
+- [Helsinki-NLP/opus-mt-taw-en](https://hf-mirror.com/Helsinki-NLP/opus-mt-taw-en)
+- [Helsinki-NLP/opus-mt-az-en](https://hf-mirror.com/Helsinki-NLP/opus-mt-az-en)
+- [Helsinki-NLP/opus-mt-ru-en](https://hf-mirror.com/Helsinki-NLP/opus-mt-ru-en)
+- [Helsinki-NLP/opus-mt-ja-en](https://hf-mirror.com/Helsinki-NLP/opus-mt-ja-en)
+- [Helsinki-NLP/opus-mt-en-ru](https://hf-mirror.com/Helsinki-NLP/opus-mt-en-ru)
+- [Helsinki-NLP/opus-mt-en-jap](https://hf-mirror.com/Helsinki-NLP/opus-mt-en-jap)
+- [Helsinki-NLP/opus-mt-en-rn](https://hf-mirror.com/Helsinki-NLP/opus-mt-en-rn)
+
+4. Restart your ComfyUI
 
 ## 使用
 下载这个工作流查看演示: [marian_mt_workflow](./marian_mt_workflow.json)
